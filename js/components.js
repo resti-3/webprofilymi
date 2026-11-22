@@ -52,19 +52,19 @@
         '<div class="topbar__row topbar__row--left">' +
           /* DUMMY: nomor SK Kemenkumham & status akreditasi — ganti dengan data resmi yayasan */
           '<span class="topbar__item">' + I.shieldCheck +
-            '<span class="topbar__legal-full">Legalitas: SK Kemenkumham RI No. AHU-0019284.AH.01.04.Tahun 2018</span>' +
-            '<span class="topbar__legal-short">SK AHU-0019284.AH.01.04.Tahun 2018</span></span>' +
+            '<span class="topbar__legal-full">Legalitas: SK Kemenkumham RI No. C-125.HT.03.01-TH.2004</span>' +
+            '<span class="topbar__legal-short">SK C-125.HT.03.01-TH.2004</span></span>' +
           '<span class="topbar__sep" aria-hidden="true"></span>' +
           '<span class="topbar__item topbar__badge">' + I.shield.replace('<svg', '<svg class="only-lg-icon"') +
             '<span class="topbar__badge-full">Amanah &amp; Terakreditasi Nasional</span>' +
             '<span class="topbar__badge-short">Amanah &amp; Terakreditasi</span></span>' +
         '</div>' +
         '<div class="topbar__row topbar__row--right">' +
-          /* DUMMY: nomor WhatsApp resmi anti-penipuan rekening — ganti nomor asli */
+          /* DUMMY: nomor WhatsApp resmi anti-penipuan — ganti nomor asli */
           '<span class="topbar__item topbar__warn">' + I.warn +
-            '<span><span class="topbar__legal-full">Layanan </span>Anti-Penipuan Rekening: ' +
-            '<b class="mobile-bold">0000-0000-0000</b> ' +
-            '<a href="https://wa.me/620000000000" target="_blank" rel="noopener"><u>(WA Resmi)</u></a></span></span>' +
+            '<span><span class="topbar__legal-full">Layanan </span>Anti-Penipuan: ' +
+            '<b class="mobile-bold">082130359839</b> ' +
+            '<a href="https://wa.me/6282130359839" target="_blank" rel="noopener"><u>(WA Resmi)</u></a></span></span>' +
         '</div>' +
       '</div>' +
     '</div>' +
@@ -96,40 +96,38 @@
           '<div class="footer__brand"><span class="ico"><span class="only-mobile">' + I.cap + '</span><span class="only-desktop">' + I.note + '</span></span> ' +
             '<span>Yayasan Mutiara Ilmu</span></div>' +
           /* DUMMY: deskripsi singkat & wilayah layanan */
-          '<p class="footer__about">Mewujudkan generasi Qurani yang berkarakter islami, unggul akademis, dan berjiwa mandiri. Berkhidmat di wilayah Jawa Tengah &amp; Jawa Timur.</p>' +
+          '<p class="footer__about">Terwujudnya insan Qurani yang beriman, bertakwa, berakhlakul karimah, cerdas, mandiri, kreatif, serta memiliki karakter Islami.</p>' +
           /* DUMMY: nomor legalitas Kemenkumham */
-          '<div class="footer__legal"><b>Legalitas Resmi Kemenkumham RI:</b>No. AHU-0019284.AH.01.04.Tahun 2018</div>' +
+          '<div class="footer__legal"><b>Legalitas Resmi Kemenkumham RI:</b>No. C-125.HT.03.01-TH.2004</div>' +
         '</div>' +
         '<div class="footer__col">' +
           '<h4 class="footer__h">Kantor Sekretariat</h4>' +
           '<ul class="footer__list">' +
             /* DUMMY: alamat lengkap kantor sekretariat */
-            '<li>Jl. Cipongporang</li>' +
+            '<li>Jl. Raya Laswi No. 705 Ciparay Kab. Bandung 40381</li>' +
             /* DUMMY: tautan Google Maps */
-            '<li><a class="hl footer__link-hl" href="https://maps.google.com" target="_blank" rel="noopener">' + I.pin + 'Petunjuk Lokasi (Google Maps)</a></li>' +
+            '<li><a class="hl footer__link-hl" href="https://share.google/xXIMJXnkogyK0vLdP" target="_blank" rel="noopener">' + I.pin + 'Petunjuk Lokasi (Google Maps)</a></li>' +
             /* DUMMY: nomor WhatsApp resmi */
-            '<li><a class="hl footer__link-hl" href="https://wa.me/6281234567890" target="_blank" rel="noopener">' +
+            '<li><a class="hl footer__link-hl" href="https://wa.me/6282130359839" target="_blank" rel="noopener">' +
               '<span class="only-mobile">' + I.phone + '</span><span class="only-desktop">' + I.chat + '</span>' +
-              '<span><span class="hide-lg">WhatsApp Resmi: 0812-3456-7890</span><span class="show-lg">WhatsApp Resmi: 0812-3456-7890</span></span></a></li>' +
+              '<span><span class="hide-lg">WhatsApp Resmi: 082130359839</span><span class="show-lg">WhatsApp Resmi: 082130359839</span></span></a></li>' +
           '</ul>' +
         '</div>' +
         '<div class="footer__col">' +
           '<h4 class="footer__h">Program Pendidikan</h4>' +
           '<ul class="footer__list">' +
-            '<li><a href="' + base + 'pages/ra.html">RA (Raudatul Athfal) Mutiara Ilmu</a></li>' +
-            '<li><a href="' + base + 'pages/dta.html">DTA (Diniyah Takmiliyah Awaliyah)</a></li>' +
-            '<li><a href="' + base + 'pages/majelis.html">Majelis Ta\'lim &amp; Kajian Rutin</a></li>' +
-            /* DUMMY: halaman Rumah Singgah belum tersedia */
-            '<li><a href="#"><span class="hide-lg">Rumah Singgah &amp; Tahfiz</span><span class="show-lg">Rumah Singgah</span></a></li>' +
+            '<li><a href="' + base + 'pages/ra.html">RA (Raudatul Athfal) Tarbiyatul Qur\'an &amp</a></li>' +
+            '<li><a href="' + base + 'pages/dta.html">DTA (Diniyah Takmiliyah Awaliyah) Tarbiyatul Quran</a></li>' +
+            '<li><a href="' + base + 'pages/majelis.html">Majelis Ta\'lim &amp; Az-Zahir</a></li>' +
           '</ul>' +
         '</div>' +
         '<div class="footer__col">' +
           '<h4 class="footer__h">Media &amp; Akuntabilitas</h4>' +
-          '<p class="footer__about" style="margin-top:0">Ikuti dokumentasi harian santri, kajian video, dan laporan keterbukaan donasi di media sosial kami:</p>' +
+          '<p class="footer__about" style="margin-top:0">Ikuti dokumentasi harian santri, kajian, dan laporan keterbukaan donasi di media sosial kami:</p>' +
           '<div class="footer__social">' +
             /* DUMMY: tautan media sosial */
-            '<a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">' + I.instagram + '</a>' +
-            '<a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">' + I.youtube + '</a>' +
+            '<a href="https://www.instagram.com/mutiara.ilmu1?knvt=bXR4NndmbnU2NGF6" target="_blank" rel="noopener" aria-label="Instagram">' + I.instagram + '</a>' +
+            '<a href="https://www.youtube.com/@yayasanmutiarailmumutiarai6353?si=AvsTwn6AlVMQXl2x" target="_blank" rel="noopener" aria-label="YouTube">' + I.youtube + '</a>' +
           '</div>' +
         '</div>' +
       '</div>' +
